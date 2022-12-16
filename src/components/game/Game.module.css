@@ -6,8 +6,13 @@
 
 .gameContent {
   display: flex;
-  flex-direction: column;
   gap: 30px;
   align-items: center;
+}
+
+@media screen and (max-width: 420px) {
+  .gameContent{
+    flex-direction: column;
+  }
 }
 
